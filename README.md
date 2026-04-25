@@ -69,6 +69,40 @@ After returning to the Windows VM, I observed that ICMP traffic was blocked due 
 
 
 
+<img width="1620" height="900" alt="image" src="https://github.com/user-attachments/assets/5dd08a30-d94a-4219-ba6b-bd98d4211a0e" />
+
+</p>
+<p>
+Next, I analyzed SSH traffic by logging into the Ubuntu server through PowerShell using the ssh command. In Wireshark, I applied a filter for tcp.port == 22. While connected, each command I executed on the server was captured in Wireshark.
+</p>
+<br />
+
+
+
+
+
+
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
