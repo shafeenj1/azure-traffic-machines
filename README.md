@@ -105,9 +105,10 @@ To analyze DNS traffic, I applied the filter udp.port == 53 in Wireshark and use
 
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1416" height="796" alt="image" src="https://github.com/user-attachments/assets/71b76b90-6090-41f6-8498-6f3c264e8a6d" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To conclude the lab, I examined RDP traffic using the Wireshark filter tcp.port == 3389. The traffic appeared continuous because RDP maintains a constant live connection between systems—in this case, my computer accessing the Azure-hosted VM.
 </p>
 <br />
