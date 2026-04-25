@@ -41,7 +41,7 @@ I used Remote Desktop Connection to access the Windows VM through its public IP 
 />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Wireshark, I applied a filter for ICMP (Internet Control Message Protocol) traffic and used PowerShell to run the ping command. Ping relies on ICMP, which allows devices on a network to report communication issues. I tested connectivity by pinging the Ubuntu VM using its private IP address, as well as google.com. I then performed a continuous ping to the Ubuntu VM using ping -t (IP address) to observe how network security groups affect traffic.
 </p>
 <br />
 
