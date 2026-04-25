@@ -94,10 +94,11 @@ After analyzing SSH traffic, I exited the Ubuntu server to focus on DHCP traffic
 
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1624" height="902" alt="image" src="https://github.com/user-attachments/assets/c217992d-46de-4992-b8fd-cf884c19a286" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To analyze DNS traffic, I applied the filter udp.port == 53 in Wireshark and used the nslookup command. I checked the results for queries to google.com and disney.com, two widely used websites.
 </p>
 <br />
 
