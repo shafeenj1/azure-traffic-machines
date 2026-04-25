@@ -46,13 +46,13 @@ In Wireshark, I applied a filter for ICMP (Internet Control Message Protocol) tr
 <br />
 
 <p>
-<img width="1644" height="902" alt="image" src="https://github.com/user-attachments/assets/ab9f8f57-f448-418e-b12d-f23e73e17a48"
-/>
+<img width="1638" height="780" alt="image" src="https://github.com/user-attachments/assets/c9b6f2ab-708a-4161-9f31-de2c74fef9b6" />
+
 </p>
 <p>
 In the Azure portal, I accessed the Ubuntu VM’s networking settings and created an inbound rule to block ICMP traffic. I assigned it a higher priority than the SSH rule (300) so it would take precedence.
 </p>
-<br />
+
 
 
 
