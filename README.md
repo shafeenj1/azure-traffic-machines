@@ -58,10 +58,11 @@ In the Azure portal, I accessed the Ubuntu VM’s networking settings and create
 
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1620" height="904" alt="image" src="https://github.com/user-attachments/assets/7e640c3d-94dc-414c-828a-ddf9049d3197" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After returning to the Windows VM, I observed that ICMP traffic was blocked due to the inbound security rule. Once the rule was modified to allow traffic again, the continuous ping resumed without timing out.
 </p>
 <br />
 
