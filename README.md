@@ -112,3 +112,7 @@ To analyze DNS traffic, I applied the filter udp.port == 53 in Wireshark and use
 To conclude the lab, I examined RDP traffic using the Wireshark filter tcp.port == 3389. The traffic appeared continuous because RDP maintains a constant live connection between systems—in this case, my computer accessing the Azure-hosted VM.
 </p>
 <br />
+
+
+<h2>Purpose of this lab</h2>
+The goal of this lab was to understand how different protocols and ports function within a network. Although it does not directly focus on troubleshooting, it provides valuable insight for gathering information. When troubleshooting, tools like Wireshark and the command line are essential for analyzing how traffic moves through ports and protocols. Developing familiarity with these tools and maintaining curiosity are important for success.
